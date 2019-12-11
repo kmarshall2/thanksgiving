@@ -1,0 +1,73 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/house.png" rel="icon" type="image/x-icon" />
+		<title>Thanksgiving</title>
+		<link rel="stylesheet" href="tg.css"/>
+	</head>
+
+	<body>
+	
+		<!-- Column 1-->
+		
+		<div class="container">
+		
+			<div class="short-row red center">
+				<img class="img pulse shadow cursor" src="images/foodtitle.jfif" onclick="addPics ()" id="foodtitle"/>
+			</div>
+		
+			<div class="column">
+			
+				<div class="box brown center">
+					<img class="hidebox shadow pulse1 img" src="images/turkey.jpg" onclick="addNextPic ()" id="turkey"/>
+				</div>
+				
+				<div class="box red center">
+					<img class="hidebox shadow pulse1 img" src="images/potatoes.jfif" onclick="addLastPic ()" id="mp"/>
+				</div>
+			
+				<div class="box brown center">
+					<img class="hidebox img" src="images/sparklingcider.jpeg" id="spark"/>
+				</div>
+					
+			</div>
+			
+		</div>
+		
+		<div class="skinny-col black center">
+			<img src="images/t.png" class="cursor img" onclick="resetButton ()"/>
+		</div>
+		
+		<!-- Column 2-->
+			
+		<div class="container">
+			
+			<div class="short-row red center">
+				<img class="img pulse shadow cursor" src="images/familytitle.jpg" onclick="addPics1 ()" id="familytitle"/>
+			</div>
+				
+			<div class="column">
+			
+				<div class="box brown center">
+					<img class="hidebox shadow pulse1 img" src="images/bigfamily.jpg" onclick="addNextPic1 ()" id="family"/>
+				</div>
+				
+				<div class="box red center">
+					<img class="hidebox pulse1 shadow img" src="images/house.png" onclick="addLastPic1 ()" id="house"/>
+				</div>
+				
+				<div class="box brown center">
+					<img class="hidebox img" src="images/table.webp" id="food"/>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<script src="tg.js"></script>
+		
+	</body>
+	
+</html>
